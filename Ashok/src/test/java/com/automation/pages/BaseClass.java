@@ -8,6 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.automation.utility.BrowserFactory;
 import com.automation.utility.ConfigDataProvider;
@@ -36,10 +37,12 @@ public class BaseClass {
 		 report = new ExtentReports();
 		 //report.attachReporter(extent);
 	}
-	
+	@Parameters({"browser","UrlToBeTested"})
 	@BeforeClass
-	public void setup() {
-		driver = BrowserFactory.startapplication(driver, config.getBrowser(), config.getURL());
+	public void setup(String browser,String url) {
+		//driver = BrowserFactory.startapplication(driver, config.getBrowser(), config.getURL());
+		
+		driver = BrowserFactory.startapplication(driver, browser, url);
 		
 	}
 	@AfterClass

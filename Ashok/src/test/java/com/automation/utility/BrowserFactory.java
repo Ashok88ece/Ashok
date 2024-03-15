@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
 		
@@ -17,7 +18,8 @@ public class BrowserFactory {
 			
 		}
 		else if (browserName.equals("Firefox")) {
-			
+			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
+			driver = new FirefoxDriver();
 		}
 		
 		else if(browserName.equals("IE")) {
