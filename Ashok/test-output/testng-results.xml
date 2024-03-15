@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-14T12:04:57 IST" name="Suite" finished-at="2024-03-14T12:05:16 IST" duration-ms="18975">
+  <suite started-at="2024-03-14T18:10:55 IST" name="Suite" finished-at="2024-03-14T18:11:12 IST" duration-ms="17013">
     <groups>
     </groups>
-    <test started-at="2024-03-14T12:04:57 IST" name="Test" finished-at="2024-03-14T12:05:16 IST" duration-ms="18975">
+    <test started-at="2024-03-14T18:10:55 IST" name="Test" finished-at="2024-03-14T18:11:12 IST" duration-ms="17013">
       <class name="com.automation.testcases.LoginTest">
-        <test-method is-config="true" signature="setupsuite()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T12:04:56 IST" name="setupsuite" finished-at="2024-03-14T12:04:57 IST" duration-ms="1195" status="PASS">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T18:10:54 IST" name="setupsuite" finished-at="2024-03-14T18:10:55 IST" duration-ms="1042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupsuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T12:04:57 IST" name="setup" finished-at="2024-03-14T12:05:12 IST" duration-ms="14708" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T18:10:55 IST" name="setup" finished-at="2024-03-14T18:11:09 IST" duration-ms="14489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T12:05:12 IST" name="teardownmethod" finished-at="2024-03-14T12:05:12 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T18:11:09 IST" name="teardownmethod" finished-at="2024-03-14T18:11:09 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownmethod -->
-        <test-method signature="loginapp()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T12:05:12 IST" name="loginapp" finished-at="2024-03-14T12:05:16 IST" duration-ms="4204" status="PASS">
+        <test-method signature="loginapp()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T18:11:09 IST" name="loginapp" finished-at="2024-03-14T18:11:12 IST" duration-ms="2458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginapp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T12:05:16 IST" name="teardown" finished-at="2024-03-14T12:05:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.testcases.LoginTest@6a2b953e]" started-at="2024-03-14T18:11:12 IST" name="teardown" finished-at="2024-03-14T18:11:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
