@@ -23,6 +23,7 @@ public class LoginTest extends BaseClass{
 		LoginPage loginpage =PageFactory.initElements(driver,LoginPage.class);
 		logger.info("Starting Application");
 		loginpage.logintohrm(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1));
+		System.out.println("Logged into Application");
 		
 		logger.pass("Logged into HMR Success");
 		//Helper.captureScreenshot(driver);

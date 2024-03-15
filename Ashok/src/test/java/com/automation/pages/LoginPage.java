@@ -8,9 +8,11 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
+	
 	public LoginPage(WebDriver ldriver) {
 		
 		this.driver=ldriver;
+		
 		
 	}
 	
@@ -36,6 +38,7 @@ public class LoginPage {
 		Uname.sendKeys(username);
 		Pword.sendKeys(password);
 		Loginbtn.click();
+		
 		
 	}
 
